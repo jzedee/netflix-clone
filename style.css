@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 10px;
     padding: 20px 80px;
     position: relative;
@@ -524,5 +524,8 @@ footer {
         width: 0;
         padding: 0.375rem 1rem 0.375rem 2.25rem;
         
+    }
+    .main nav{
+        padding: 20px 30px;
     }
 }
